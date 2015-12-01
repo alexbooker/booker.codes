@@ -1,9 +1,15 @@
-$red: #ff0000;
+@import "~susy/sass/susy";
 
 .nav {
   display: none;
 }
 
+.header {
+  &__inner {
+    @include container(80em);
+    border: 1px red solid;
+  }
+}
+
 body {
-  background-color: $red;
 }
