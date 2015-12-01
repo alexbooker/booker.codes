@@ -6,8 +6,7 @@
 </head>
 <body>
 
-  <header class="header">
-    <h1 class="header__logo">Alex Booker</h1>
+  <header>
     <button class="nav-toggle-btn">
       Toggle Navigation
     </button>
