@@ -1,1 +1,2 @@
-require("./app.scss")
+require("normalize.css/normalize.css");
+require("./app.scss");
