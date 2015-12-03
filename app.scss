@@ -4,7 +4,6 @@ $susy: (
   container: 80%
 );
 
-
 .header {
   &__container {
     @include container();
@@ -14,6 +13,7 @@ $susy: (
 .nav {
   width: 100%;
   display: none;
+  border: 1px red solid;
   &--expanded {
     display: block;
   }
@@ -21,5 +21,16 @@ $susy: (
     margin: 0;
     padding: 0;
     list-style:none;
+  }
+  &__li {
+    padding: 15px;
+    text-align: center;
+    &:not(:last-of-type) {
+      border-bottom: 1px red solid;
+    }
+  }
+  &__a {
+    color: blue;
+    text-decoration: none;
   }
 }
