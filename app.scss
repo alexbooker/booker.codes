@@ -1,15 +1,25 @@
 @import "~susy/sass/susy";
 
-.nav {
-  display: none;
-}
+$susy: (
+  container: 80%
+);
+
 
 .header {
-  &__inner {
-    @include container(80em);
-    border: 1px red solid;
+  &__container {
+    @include container();
   }
 }
 
-body {
+.nav {
+  width: 100%;
+  display: none;
+  &--expanded {
+    display: block;
+  }
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+  }
 }
