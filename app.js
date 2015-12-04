@@ -1,10 +1,10 @@
 require("normalize.css/normalize.css");
 require("./app.scss");
 
-const btn = document.getElementById("burger-btn");
+const btn = document.querySelector(".nav__toggle-btn")
 btn.onclick = function () {
   document
-    .querySelector(".nav")
+    .querySelector(".nav__list")
     .classList
-    .toggle("nav--expanded");
+    .toggle("nav__list--expanded");
 };

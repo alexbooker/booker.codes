@@ -1,5 +1,5 @@
-@import "~susy";
-@import "~breakpoint-sass";
+@import '~susy';
+@import '~breakpoint-sass';
 
 * {
   margin: 0;
@@ -11,38 +11,46 @@ $susy: (
 );
 
 .header {
+  text-align: center;
+
   &__container {
     @include container();
   }
-  text-align: center;
-}
-
-
-.burger-btn {
-  border: none;
-  padding: 5px;
-  margin-bottom: 21.4333px;
 }
 
 .nav {
   $border-color: #e6e6e6;
-  display: none;
-  border: 1px $border-color solid;
-  &--expanded {
-    display: block;
+
+  &__toggle-btn {
+    border: 0;
+    margin-bottom: 21.4333px;
+    padding: 5px;
   }
+
   &__list {
-    list-style:none;
-  }
-  &__li {
-    padding: 15px;
-    text-align: center;
-    &:not(:last-of-type) {
-      border-bottom: 1px $border-color solid;
+    border: 1px $border-color solid;
+    display: none;
+    list-style: none;
+
+    &--expanded {
+      display: block;
+    }
+
+    >li {
+      padding: 15px;
+      text-align: center;
+
+      // scss-lint:disable NestingDepth
+      >a {
+        text-decoration: none;
+      }
+
+      // scss-lint:disable NestingDepth
+      &:not(:last-of-type) {
+        border-bottom: 1px $border-color solid;
+      }
+
     }
   }
-  &__a {
-    color: blue;
-    text-decoration: none;
-  }
 }
+
