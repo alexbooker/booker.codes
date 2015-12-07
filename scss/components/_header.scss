@@ -3,6 +3,7 @@
 
   &__container {
     @include container();
+    padding: 15px 0;
 
     @include breakpoint($medium) {
       align-items: center;
