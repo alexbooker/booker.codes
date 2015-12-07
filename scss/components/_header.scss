@@ -1,0 +1,13 @@
+.header {
+  text-align: center;
+
+  &__container {
+    @include container();
+
+    @include breakpoint($medium) {
+      align-items: center;
+      display: flex;
+      position: relative;
+    }
+  }
+}

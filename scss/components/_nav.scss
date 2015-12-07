@@ -1,31 +1,3 @@
-@import '~susy';
-@import '~breakpoint-sass';
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-$medium: 355px;
-$wide: 900px;
-$susy: (
-  container: 80%
-);
-
-.header {
-  text-align: center;
-
-  &__container {
-    @include container();
-
-    @include breakpoint($medium) {
-      align-items: center;
-      display: flex;
-      position: relative;
-    }
-  }
-}
-
 .nav {
   $nav-border-color: #e6e6e6;
 
@@ -90,7 +62,6 @@ $susy: (
           border-bottom: 0;
         }
       }
-
     }
   }
 }

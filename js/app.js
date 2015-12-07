@@ -1,5 +1,5 @@
 require("normalize.css/normalize.css");
-require("./app.scss");
+require("../scss/app.scss");
 
 const btn = document.querySelector(".nav__toggle-btn")
 btn.onclick = function () {
