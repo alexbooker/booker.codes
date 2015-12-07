@@ -12,17 +12,16 @@ $susy: (
   container: 80%
 );
 
-
 .header {
   text-align: center;
 
   &__container {
     @include container();
-    position: relative;
 
     @include breakpoint($medium) {
       align-items: center;
       display: flex;
+      position: relative;
     }
   }
 }
@@ -36,7 +35,6 @@ $susy: (
 
   &__toggle-btn {
     border: 0;
-    padding: 5px;
 
     @include breakpoint($wide) {
       display: none;
