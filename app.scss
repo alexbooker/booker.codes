@@ -37,12 +37,13 @@ $susy: (
     }
 
     >li {
-      padding: 15px;
       text-align: center;
 
       // scss-lint:disable NestingDepth
       >a {
         text-decoration: none;
+        padding: 15px;
+        display: block;
       }
 
       // scss-lint:disable NestingDepth
