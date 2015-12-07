@@ -6,31 +6,61 @@
   padding: 0;
 }
 
+$medium: 355px;
+$wide: 900px;
 $susy: (
   container: 80%
 );
+
 
 .header {
   text-align: center;
 
   &__container {
     @include container();
+    position: relative;
+
+    @include breakpoint($medium) {
+      align-items: center;
+      display: flex;
+    }
   }
 }
 
 .nav {
-  $border-color: #e6e6e6;
+  $nav-border-color: #e6e6e6;
+
+  @include breakpoint($medium) {
+    margin-left: auto;
+  }
 
   &__toggle-btn {
     border: 0;
-    margin-bottom: 21.4333px;
     padding: 5px;
+
+    @include breakpoint($wide) {
+      display: none;
+    }
   }
 
   &__list {
-    border: 1px $border-color solid;
+    border: 1px $nav-border-color solid;
     display: none;
     list-style: none;
+    margin-top: 21.4333px;
+
+    @include breakpoint($medium) {
+      left: 0;
+      position: absolute;
+      width: 100%;
+    }
+
+    @include breakpoint($wide) {
+      border: 0;
+      display: block;
+      margin-top: 0;
+      position: static;
+    }
 
     &--expanded {
       display: block;
@@ -39,16 +69,28 @@ $susy: (
     >li {
       text-align: center;
 
+      @include breakpoint($wide) {
+        display: inline-block;
+      }
+
       // scss-lint:disable NestingDepth
       >a {
         display: block;
         padding: 15px;
         text-decoration: none;
+
+        @include breakpoint($wide) {
+          padding: 10px;
+        }
       }
 
       // scss-lint:disable NestingDepth
       &:not(:last-of-type) {
-        border-bottom: 1px $border-color solid;
+        border-bottom: 1px $nav-border-color solid;
+
+        @include breakpoint($wide) {
+          border-bottom: 0;
+        }
       }
 
     }
