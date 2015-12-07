@@ -1,10 +1,6 @@
 @import '~susy';
 @import '~breakpoint-sass';
 @import 'config/config';
+@import 'base/reset';
 @import 'components/header';
 @import 'components/nav';
-
-* {
-  margin: 0;
-  padding: 0;
-}

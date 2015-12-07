@@ -1,7 +1,6 @@
-require("normalize.css/normalize.css");
 require("../scss/app.scss");
 
-const btn = document.querySelector(".nav__toggle-btn")
+const btn = document.querySelector(".nav__toggle-btn");
 btn.onclick = function () {
   document
     .querySelector(".nav__list")
