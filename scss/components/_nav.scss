@@ -6,9 +6,9 @@
   }
 
   &__toggle-btn {
-    border: 0;
     display: flex;
     align-items: center;
+    margin: auto;
 
     @include breakpoint($wide) {
       display: none;
