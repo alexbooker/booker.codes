@@ -1,4 +1,19 @@
 .banner {
   background-color: tomato;
   border: 1px red solid;
+  padding: 10vmax 0;
+
+  &__container {
+    @include fluid-container;
+  }
+
+  &__text {
+    max-width: 700px;
+    font-size: 1.1em;
+    line-height: 1.25em;
+    @include breakpoint(690px) {
+      font-size: 1.5em;
+      line-height: 1.5em;
+    }
+  }
 }
