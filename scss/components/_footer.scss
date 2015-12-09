@@ -1,0 +1,5 @@
+.footer {
+  &__container {
+    @include fluid-container;
+  }
+}
