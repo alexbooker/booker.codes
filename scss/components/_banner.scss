@@ -18,12 +18,7 @@
   }
 
   &__contact-btn {
-    border: 2px black solid;
-    padding: 10px 12px;
-    display: inline-block;
-    margin-top: 20px;
-    @include breakpoint(690px) {
-      font-size: 1.2em;
-    }
+    padding: 13px 8px;
+    font-style: 1.3em;
   }
 }
