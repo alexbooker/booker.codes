@@ -1,9 +1,13 @@
 @mixin button() {
+  font-family: "Open Sans";
   background-color: #C84630;
   color: white;
   padding: 7px;
   display: inline-block;
   text-decoration: none;
+  &:hover {
+    background-color: darken(#C84630, 10%);
+  }
 }
 
 .button {
