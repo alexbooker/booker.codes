@@ -1,12 +1,6 @@
 .header {
   text-align: center;
 
-  &__logo {
-    text-decoration: none;
-    color: black;
-    font-family: "Armata";
-  }
-
   &__container {
     @include fluid-container();
     padding: 15px 0;
