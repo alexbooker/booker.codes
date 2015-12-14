@@ -1,8 +1,8 @@
 @import '~susy';
 @import '~breakpoint-sass';
+@import '~normalize.css';
 @import 'config/config';
 @import 'mixins/fluid-container';
-@import 'base/reset';
 @import 'base/typography';
 @import 'components/header';
 @import 'components/nav';
