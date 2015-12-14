@@ -6,7 +6,12 @@
   &__toggle-btn {
     display: flex;
     align-items: center;
+    background: 0;
+    border: 0;
     margin: auto;
+    >svg {
+      margin-left: 5px;
+    }
     @include breakpoint($wide) {
       display: none;
     }
