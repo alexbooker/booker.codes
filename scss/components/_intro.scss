@@ -2,12 +2,11 @@
   padding: 5vh 0;
   &__container {
     @include fluid-container;
-    max-width: 750px;
   }
   &__text {
     font-size: 1.2em;
     line-height: 1.35em;
-    max-width: 500px;
-    margin: 0 auto;
+    word-wrap: break-word;
+    width: 750px;
   }
 }
