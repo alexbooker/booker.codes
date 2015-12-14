@@ -32,6 +32,8 @@
       margin-top: 0;
       position: static;
       margin-bottom: 0;
+
+
     }
     &--expanded {
       display: block;
@@ -57,6 +59,10 @@
     text-decoration: none;
     @include breakpoint($wide) {
       padding: 10px;
+      &--contact {
+        @include button();
+        color: white;
+      }
     }
   }
 }
