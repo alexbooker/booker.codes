@@ -1,0 +1,12 @@
+.intro-section {
+  &__container {
+    @include fluid-container();
+    @include clearfix();
+    padding: 3vh 0;
+  }
+  &__datum {
+    @include breakpoint(600px) {
+      @include gallery(4 of 12);
+    }
+  }
+}

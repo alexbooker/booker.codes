@@ -4,10 +4,13 @@
 @import 'config/config';
 @import 'base/global';
 @import 'mixins/fluid-container';
+@import 'mixins/clearfix';
 @import 'base/typography';
 @import 'components/button';
 @import 'components/logo';
 @import 'components/header';
 @import 'components/nav';
 @import 'components/banner';
+@import 'components/datum';
+@import 'components/intro-section';
 @import 'components/footer';
