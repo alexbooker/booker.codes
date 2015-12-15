@@ -1,0 +1,17 @@
+.service {
+  display: flex;
+  align-items: flex-start;
+  &__icon {
+    display: block;
+    min-width: 48px;
+    margin-right: 7px;
+  }
+  &__heading {
+    margin-top: 10px;
+    fill: red;
+    font-size: 1.3em;
+    text-transform: uppercase;
+  }
+  &__description {
+  }
+}

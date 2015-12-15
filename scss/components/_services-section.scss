@@ -1,0 +1,18 @@
+.services-section {
+  background-color: #f5f5f5;
+  &__container {
+    @include fluid-container();
+    @include clearfix();
+    padding: 3vh 0;
+  }
+  &__heading {
+    text-align: center;
+  }
+  &__services {
+  }
+  &__service {
+    @include breakpoint(600px) {
+      @include gallery(4 of 12);
+    }
+  }
+}
