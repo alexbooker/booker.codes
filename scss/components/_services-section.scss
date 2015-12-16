@@ -1,12 +1,6 @@
 .services-section {
   background-color: #f3f4f6;
 
-  &__container {
-    @include fluid-container();
-    @include clearfix();
-    padding: 3vh 0;
-  }
-
   &__heading {
     text-align: center;
   }

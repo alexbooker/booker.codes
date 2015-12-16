@@ -1,0 +1,7 @@
+.container {
+  @include clearfix();
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 3vh 0;
+  width: 90%;
+}

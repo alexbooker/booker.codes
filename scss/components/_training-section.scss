@@ -11,12 +11,6 @@
     }
   }
 
-  &__container {
-    @include fluid-container();
-    @include clearfix();
-    padding: 3vh 0;
-  }
-
   &__list {
     list-style: none;
     padding: 0;

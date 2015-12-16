@@ -1,9 +1,5 @@
 .cta-section {
-  text-align: center;
   background-color: #e8e9eb;
-
-  &__container {
-    @include fluid-container();
-    padding: 5vh 0;
-  }
+  padding: 4vh 0;
+  text-align: center;
 }

@@ -2,7 +2,6 @@
   text-align: center;
 
   &__container {
-    @include fluid-container();
     padding: 20px 0;
 
     @include breakpoint($medium) {
