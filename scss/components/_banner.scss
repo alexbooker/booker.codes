@@ -7,9 +7,10 @@
   }
 
   &__text {
-    max-width: 700px;
     font-size: 1.1em;
     line-height: 1.25em;
+    max-width: 700px;
+
     @include breakpoint(690px) {
       font-size: 1.5em;
       line-height: 1.5em;
@@ -19,9 +20,10 @@
   &__contact-btn {
     padding: 10px 8px;
   }
+
   &__learn-btn {
+    border-bottom: 1px #000000 dotted;
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px black dotted;
   }
 }

@@ -1,9 +1,10 @@
 .logo {
-  text-decoration: none;
   color: black;
-  font-family: "Armata";
+  font-family: 'Armata';
+  text-decoration: none;
+
   &__text {
-    margin: 0;
     font-size: 1.6em;
+    margin: 0;
   }
 }

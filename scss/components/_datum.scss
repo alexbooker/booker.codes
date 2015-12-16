@@ -1,16 +1,15 @@
 .datum {
   &__heading {
-    text-transform: uppercase;
     font-size: 1.3em;
+    text-transform: uppercase;
+
     >span {
       color: lighten(#000, 55%);
-      font-style: italic;
       display: block;
       font-size: .7em;
-      text-transform: none;
+      font-style: italic;
       margin-bottom: 2px;
+      text-transform: none;
     }
-  }
-  &__text {
   }
 }
