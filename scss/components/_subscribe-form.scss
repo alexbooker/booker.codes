@@ -1,0 +1,39 @@
+$border-color: #000;
+$inner-padding-left: 12px;
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+
+  @include breakpoint(600px) {
+    max-width: 750px;
+  }
+
+  &__input-group {
+    position: relative;
+  }
+
+  &__label {
+    font-size: .7em;
+    left: 12px;
+    position: absolute;
+    top: 10px;
+  }
+
+  &__text-input {
+    border: 2px $border-color solid;
+    border-bottom: 0;
+    font-size: 1.2em;
+    padding: 30px $inner-padding-left;
+    padding-bottom: 14px;
+    width: 100%;
+  }
+
+  &__submit-btn {
+    border: 2px $border-color solid;
+    padding: 12px $inner-padding-left;
+    width: 100%;
+  }
+}
