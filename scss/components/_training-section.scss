@@ -1,0 +1,39 @@
+.training-section {
+  background-color: #f3f4f6;
+
+  @include breakpoint(830px) {
+    &__articles {
+      @include gallery(6 of 12);
+    }
+
+    &__screencasts {
+      @include gallery(6 at 7 of 12);
+    }
+  }
+
+  &__container {
+    @include fluid-container();
+    @include clearfix();
+    padding: 3vh 0;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__item {
+    padding: 10px 0;
+  }
+
+  &__link {
+    display: block;
+    font-size: 1.3em;
+    margin-bottom: 7px;
+  }
+
+  &__datetime {
+    font-size: 1em;
+  }
+
+}
