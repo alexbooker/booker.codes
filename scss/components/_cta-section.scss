@@ -1,0 +1,7 @@
+.cta-section {
+  text-align: center;
+  
+  &__container {
+    @include fluid-container();
+  }
+}
