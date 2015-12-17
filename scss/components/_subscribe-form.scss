@@ -5,9 +5,11 @@ $inner-padding-left: 12px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 
   @include breakpoint(600px) {
+    flex-direction: row;
+    justify-content: center;
     max-width: 750px;
   }
 
@@ -29,11 +31,21 @@ $inner-padding-left: 12px;
     padding: 30px $inner-padding-left;
     padding-bottom: 14px;
     width: 100%;
+
+    @include breakpoint(600px) {
+      border: 2px $border-color solid;
+      border-right: 0;
+    }
   }
 
   &__submit-btn {
     border: 2px $border-color solid;
     padding: 12px $inner-padding-left;
     width: 100%;
+
+    @include breakpoint(600px) {
+      height: 72px;
+      width: 120px;
+    }
   }
 }
