@@ -10,7 +10,6 @@ $inner-padding-left: 12px;
   @include breakpoint(600px) {
     flex-direction: row;
     justify-content: center;
-    max-width: 750px;
   }
 
   &__input-group {
