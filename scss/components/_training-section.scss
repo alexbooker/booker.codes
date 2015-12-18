@@ -1,5 +1,6 @@
 .training-section {
   background-color: #f3f4f6;
+  position: relative;
 
   @include breakpoint(830px) {
     &__articles {
@@ -14,6 +15,7 @@
   &__list {
     list-style: none;
     padding: 0;
+    padding-bottom: 60px;
   }
 
   &__item {
@@ -28,6 +30,15 @@
 
   &__datetime {
     font-size: 1em;
+  }
+
+  &__btn {
+    @include button();
+
+    @include breakpoint(830px) {
+      bottom: 50px;
+      position: absolute;
+    }
   }
 
 }
