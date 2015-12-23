@@ -1,0 +1,17 @@
+
+.social-network-list {
+  list-style: none;
+  padding-left: 0;
+
+  &__link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &__icon {
+    fill: #000000;
+    height: 19px;
+    width: 19px;
+    margin-right: 6px;
+  }
+}
