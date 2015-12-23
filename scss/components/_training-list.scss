@@ -1,0 +1,16 @@
+.training-list {
+  list-style: none;
+  padding: 0;
+  &__item {
+    &:not(:last-child) {
+      border-bottom: 1px #101010 solid;
+    }
+    padding: 10px 0;
+  }
+  &__link {
+    color: inherit;
+    padding-bottom: 5px;
+    display: block;
+    text-decoration: underline;
+  }
+}
