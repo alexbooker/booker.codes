@@ -4,18 +4,14 @@
 
   @include breakpoint(600px) {
     &__about-col {
-      @include span(3 of 12);
+      @include span(6 of 12);
     }
 
     &__screencasts-col {
-      @include span(3 at 4 of 12);
+      @include span(3 at 7 of 12);
     }
 
     &__articles-col {
-      @include span(3 at 8 of 12);
-    }
-
-    &__connect-col {
       @include span(3 at 10 of 12);
     }
   }
