@@ -1,0 +1,20 @@
+.training-section {
+  
+  color: white;
+  background-color: #212121;
+
+  @include breakpoint(600px) {
+
+    &__about-col {
+      @include span(6 of 12);
+    }
+
+    &__screencasts-col {
+      @include span(3 at 7 of 12);
+    }
+
+    &__articles-col {
+      @include span(3 at 10 of 12);
+    }
+  }
+}
