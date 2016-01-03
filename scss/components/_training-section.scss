@@ -13,4 +13,20 @@
     }
 
   }
+
+  &__link {
+    color: tomato;
+    &:after {
+      content: '...';
+    }
+  }
+
+  &__row {
+    @include clearfix();
+    margin-bottom: 50px;
+  }
+
+  &__subscribe-advert {
+    text-align: center;
+  }
 }
