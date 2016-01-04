@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
   font-family: 'Merriweather';
+  &--scrolling-disabled {
+    overflow: hidden;
+  }
 }

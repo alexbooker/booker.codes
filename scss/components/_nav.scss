@@ -22,18 +22,25 @@
   }
 
   &__list {
-    border: 1px $nav-border-color solid;
     display: none;
     list-style: none;
-    margin-top: 21.4333px;
+    // margin-top: 21.4333px;
+
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 98px;
+    background-color: tomato;
+    width: 100%;
+    height: 100%;
+    left: 0;
 
     @include breakpoint($medium) {
-      left: 0;
-      position: absolute;
-      width: 100%;
+      top: 72px;
     }
 
     @include breakpoint($wide) {
+      background-color: inherit;
       border: 0;
       display: block;
       margin-bottom: 0;
@@ -47,19 +54,9 @@
   }
 
   &__item {
-    text-align: center;
-
+    text-align: left;
     @include breakpoint($wide) {
       display: inline-block;
-    }
-
-    // scss-lint:disable NestingDepth
-    &:not(:last-of-type) {
-      border-bottom: 1px $nav-border-color solid;
-
-      @include breakpoint($wide) {
-        border-bottom: 0;
-      }
     }
   }
 
@@ -68,6 +65,10 @@
     display: block;
     padding: 15px;
     text-decoration: none;
+
+    &:hover {
+      background-color: darken(tomato, 10%);
+    }
 
     @include breakpoint($wide) {
       padding: 10px;

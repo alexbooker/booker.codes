@@ -6,4 +6,9 @@ btn.onclick = function() {
     .querySelector(".nav__list")
     .classList
     .toggle("nav__list--expanded");
+  document
+    .body
+    .classList
+    .toggle("body--scrolling-disabled");
+  window.scrollTo(0, 0);
 };
