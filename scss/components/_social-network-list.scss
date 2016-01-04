@@ -1,0 +1,21 @@
+.social-network-list {
+  list-style: none;
+  padding-left: 0;
+  li {
+    padding: 5px 0;
+    @include breakpoint(605px) {
+      display: inline-block;
+      &:not(:last-child):after {
+        content: ' |';
+        color: tomato;
+      }
+    }
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
