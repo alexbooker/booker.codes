@@ -1,0 +1,30 @@
+.burger-icon {
+  width: 24px;
+  height: 24px;
+  fill: black;
+  .burger-icon__line {
+    transform: rotate(0) translateY(0) translateX(0);
+    opacity: 1;
+    transform-origin: 20px 10px;
+    transition: transform 0.4s ease-in-out, opacity 0.2s ease-in-out;
+    &:nth-of-type(1) {
+      transform-origin: 20px 10px;
+    }
+    &:nth-of-type(3) {
+      transform-origin: 20px 20px;
+    }
+  }
+  &--open {
+    .burger-icon__line {
+      &:nth-of-type(1) {
+        transform: rotate(-45deg) translateY(0) translateX(0);
+      }
+      &:nth-of-type(2) {
+        opacity: 0;
+      }
+      &:nth-of-type(3) {
+        transform: rotate(45deg) translateY(0em) translateX(0em);
+      }
+    }
+  }
+}

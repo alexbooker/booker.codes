@@ -10,5 +10,9 @@ btn.onclick = function() {
     .body
     .classList
     .toggle("body--scrolling-disabled");
+  document
+    .querySelector(".nav__toggle-btn .burger-icon")
+    .classList
+    .toggle("burger-icon--open");
   window.scrollTo(0, 0);
 };
