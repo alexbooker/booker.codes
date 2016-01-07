@@ -1,17 +1,10 @@
 .social-network-list {
-  &__icon {
-    width: 24px;
-    height: 24px;
-    fill: white;
-
-    @include breakpoint($wide) {
-      display: none;
-    }
-  }
   list-style: none;
   padding-left: 0;
-  li {
+
+  &__item {
     padding: 5px 0;
+
     @include breakpoint(605px) {
       display: inline-block;
       &:not(:last-child):after {
@@ -20,10 +13,22 @@
       }
     }
   }
-  a {
+
+  &__link {
     text-decoration: none;
+
     &:hover {
       text-decoration: underline;
+    }
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    fill: white;
+
+    @include breakpoint($wide) {
+      display: none;
     }
   }
 }
