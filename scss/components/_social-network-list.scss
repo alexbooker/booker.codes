@@ -1,4 +1,13 @@
 .social-network-list {
+  &__icon {
+    width: 24px;
+    height: 24px;
+    fill: white;
+
+    @include breakpoint($wide) {
+      display: none;
+    }
+  }
   list-style: none;
   padding-left: 0;
   li {
@@ -12,7 +21,6 @@
     }
   }
   a {
-    color: white;
     text-decoration: none;
     &:hover {
       text-decoration: underline;
