@@ -1,13 +1,14 @@
+$button-background-color: #5fcf80;
+$button-text-color: #ffffff;
+
 @mixin button() {
-  font-family: 'Open Sans';
-  background-color: #C84630;
-  color: #ffffff;
-  padding: 7px;
+  background-color: $button-background-color;
+  color: $button-text-color;
   display: inline-block;
   text-decoration: none;
-  
+
   &:hover {
-    background-color: darken(#C84630, 10%);
+    background-color: darken($button-background-color, 10%);
   }
 }
 

@@ -1,7 +1,6 @@
 .training-section {
 
-  color: white;
-  background-color: #212121;
+  background-color: $alt-section-background-color;
 
   @include breakpoint(600px) {
 

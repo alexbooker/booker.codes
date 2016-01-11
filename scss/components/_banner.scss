@@ -1,6 +1,7 @@
 .banner {
-  background-color: #FDF2C5;
   padding: 7vmax 0;
+  background-color: $brand-background-color;
+  color: $brand-foreground-color;
 
   &__text {
     font-size: 1.1em;
