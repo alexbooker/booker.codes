@@ -8,6 +8,7 @@ $button-text-color: #ffffff;
   text-decoration: none;
 
   &:hover {
+    color: #000000;
     background-color: darken($button-background-color, 10%);
   }
 }
