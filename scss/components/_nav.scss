@@ -1,5 +1,6 @@
 .nav {
   $nav-border-color: #e6e6e6;
+  font-family: 'Roboto Slab';
 
   @include breakpoint($medium) {
     margin-left: auto;
