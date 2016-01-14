@@ -1,4 +1,4 @@
-$button-background-color: #5fcf80;
+$button-background-color: $accent-color;
 $button-text-color: #ffffff;
 
 @mixin button() {

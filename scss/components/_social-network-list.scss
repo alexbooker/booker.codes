@@ -9,7 +9,7 @@
       display: inline-block;
       &:not(:last-child):after {
         content: ' |';
-        color: tomato;
+        color: $accent-color;
       }
     }
   }
