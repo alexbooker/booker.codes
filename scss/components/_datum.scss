@@ -3,6 +3,14 @@
     font-size: 1.3em;
     text-transform: uppercase;
 
+    &:after {
+      content: ' ';
+      width: 50px;
+      display: block;
+      border-bottom:2px #cccccc solid;
+      margin-top: 6px;
+    }
+
     >span {
       color: lighten(#000, 55%);
       display: block;
