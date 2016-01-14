@@ -3,4 +3,8 @@
   color: $brand-foreground-color;
   padding: 4vh 0;
   text-align: center;
+  &__button {
+    font-size: 1.2em;
+    padding: 9px 18px;
+  }
 }
