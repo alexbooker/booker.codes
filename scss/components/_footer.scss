@@ -1,5 +1,10 @@
 .footer {
   background-color: $section-background-color;
+  background-color: #2b2e39;
+  color: #E0E0E0;
+  &__container {
+    padding: 2.5vh 0;
+  }
   &__imprint {
   }
 }

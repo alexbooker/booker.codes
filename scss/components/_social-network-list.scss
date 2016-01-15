@@ -15,7 +15,7 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: black;
+    color: #E0E0E0;
     padding-right: 12px;
 
     &:hover {
@@ -26,16 +26,15 @@
   &__icon {
     width: 24px;
     height: 24px;
-    fill: $accent-color;
-    margin-right: 3px;
+    margin-right: 4px;
     &--mail {
-      fill: #44557E;
+      fill: white;
     }
     &--twitter {
       fill: #00aced;
     }
     &--github {
-      fill: #333333;
+      fill: white;
     }
     &--youtube {
       fill: #cd201f;
