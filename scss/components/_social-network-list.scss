@@ -1,21 +1,22 @@
 .social-network-list {
   list-style: none;
   padding-left: 0;
+  font-family: 'Roboto Slab';
 
   &__item {
     padding: 5px 0;
 
     @include breakpoint(605px) {
       display: inline-block;
-      &:not(:last-child):after {
-        content: ' |';
-        color: $accent-color;
-      }
     }
   }
 
   &__link {
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding-right: 12px;
 
     &:hover {
       text-decoration: underline;
@@ -25,10 +26,22 @@
   &__icon {
     width: 24px;
     height: 24px;
-    fill: white;
-
-    @include breakpoint($wide) {
-      display: none;
+    fill: $accent-color;
+    margin-right: 3px;
+    &--mail {
+      fill: #44557E;
+    }
+    &--twitter {
+      fill: #00aced;
+    }
+    &--github {
+      fill: #333333;
+    }
+    &--youtube {
+      fill: #cd201f;
+    }
+    &--stack-overflow {
+      fill: #fe7a15;
     }
   }
 }
