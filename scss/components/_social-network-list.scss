@@ -2,6 +2,8 @@
   list-style: none;
   padding-left: 0;
   font-family: 'Roboto Slab';
+  margin: 0;
+  margin-bottom: 7px;
 
   &__item {
     padding: 5px 0;
@@ -17,6 +19,7 @@
     align-items: center;
     color: #E0E0E0;
     padding-right: 12px;
+    font-size: .9em;
 
     &:hover {
       text-decoration: underline;
@@ -24,9 +27,10 @@
   }
 
   &__icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 4px;
+    width: 26px;
+    height: 26px;
+    margin-right: 6px;
+    fill: #888a90 !important;
     &--mail {
       fill: white;
     }
