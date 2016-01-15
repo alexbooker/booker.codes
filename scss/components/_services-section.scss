@@ -7,7 +7,7 @@
 
   &__service {
     @include breakpoint(600px) {
-      @include gallery(4 of 12);
+      @include gallery(6 of 12);
     }
   }
 }
