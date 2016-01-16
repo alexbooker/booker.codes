@@ -1,12 +1,12 @@
 p {
-  font-family: 'Noto Sans';
+  font-family: $font-paragraph;
   line-height: 1.7em;
   >a {
-    color: #5fcf80;
+    color: $color-accent;
   }
 }
 
 h1, h2 {
-  font-family: 'PT Serif';
+  font-family: $font-heading;
   letter-spacing: 0.08em;
 }

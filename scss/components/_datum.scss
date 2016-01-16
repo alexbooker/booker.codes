@@ -7,12 +7,12 @@
       content: ' ';
       width: 50px;
       display: block;
-      border-bottom:2px #cccccc solid;
+      border-bottom:2px lighten($color-black, 85%) solid;
       margin-top: 6px;
     }
 
     >span {
-      color: lighten(#000, 55%);
+      color: lighten($color-black, 55%);
       display: block;
       font-size: .7em;
       font-style: italic;

@@ -1,9 +1,9 @@
 .logo {
-  color: black;
+  color: $color-black;
   text-decoration: none;
 
   &__text {
-    font-family: 'Armata';
+    font-family: $font-logo;
     font-size: 1.6em;
     margin: 0;
   }

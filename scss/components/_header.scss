@@ -4,7 +4,7 @@
   &__container {
     padding: 20px 0;
 
-    @include breakpoint($medium) {
+    @include breakpoint(355px) {
       align-items: center;
       display: flex;
       position: relative;

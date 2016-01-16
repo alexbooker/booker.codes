@@ -6,8 +6,8 @@
   @include breakpoint(690px) {
     padding: 120px 0;
   }
-  background-color: $brand-background-color;
-  color: $brand-foreground-color;
+  background-color: $color-blue-steel;
+  color: $color-white;
 
   &__text {
     font-size: 1em;
@@ -50,7 +50,7 @@
   }
 
   &__learn-btn {
-    border-bottom: 1px $brand-foreground-color dotted;
+    border-bottom: 1px $color-white dotted;
     color: inherit;
     text-decoration: none;
   }

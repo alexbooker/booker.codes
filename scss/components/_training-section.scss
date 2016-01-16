@@ -1,6 +1,6 @@
 .training-section {
 
-  background-color: $alt-section-background-color;
+  background-color: #f8f8f8;
 
   @include breakpoint(600px) {
 
@@ -14,7 +14,7 @@
   }
 
   &__link {
-    color: tomato;
+    color: $color-accent;
     &:after {
       content: '...';
     }

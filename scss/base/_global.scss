@@ -3,6 +3,7 @@
 }
 
 .body {
+  background-color: $color-white;
   &--scrolling-disabled {
     overflow: hidden;
   }

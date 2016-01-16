@@ -1,15 +1,11 @@
 .footer {
-  background-color: $section-background-color;
   background-color: #2b2e39;
-  color: #E0E0E0;
+  color: darken($color-white, 10%);
   &__container {
     padding: 2.5vh 0;
   }
-  &__imprint {
-  }
   &__text {
     margin: 0;
-    color: #D1D1D1;
     font-size: .9em;
   }
 }

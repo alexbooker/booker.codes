@@ -1,16 +1,14 @@
-$button-background-color: $accent-color;
-$button-text-color: #ffffff;
 
 @mixin button() {
-  background-color: $button-background-color;
-  color: $button-text-color;
+  background-color: $color-accent;
+  color: $color-black;
   display: inline-block;
   text-decoration: none;
   font-family: 'Roboto Slab';
 
   &:hover {
-    color: #000000;
-    background-color: darken($button-background-color, 10%);
+    color: $color-black;
+    background-color: darken($color-accent, 10%);
   }
 }
 

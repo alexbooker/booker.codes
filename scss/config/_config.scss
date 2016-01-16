@@ -1,14 +1,13 @@
-$medium: 355px;
-$wide: 900px;
 $susy: (
   container: 58%
 );
 
-$brand-background-color: #1F222D;
-$brand-foreground-color: #ffffff;
+$font-logo:      'Armata';
+$font-heading:   'PT Serif';
+$font-paragraph: 'Noto Sans';
+$font-nav:       'Roboto Slab';
 
-$alt-section-background-color: #f8f8f8;
-$section-background-color: #ffffff;
-$section-foreground-color: #000000;
-
-$accent-color: #5fcf80;
+$color-accent:     #5fcf80;
+$color-white:      #F7F7F7;
+$color-black:      #030303;
+$color-blue-steel: #1F222D;
