@@ -1,5 +1,4 @@
 .nav {
-  $nav-border-color: #e6e6e6;
   font-family: $font-nav;
 
   @include breakpoint(355px) {
@@ -76,11 +75,11 @@
 
     &:hover {
       background-color: $color-white;
-      color: black;
+      color: $color-black;
     }
 
     @include breakpoint(900px) {
-      color: black;
+      color: $color-black;
       padding: 10px;
       font-size: 1em;
 
