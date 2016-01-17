@@ -83,6 +83,10 @@
       padding: 10px;
       font-size: 1em;
 
+      &:hover {
+        color: darken($color-accent, 20%);
+      }
+
       &--contact {
         @include button();
       }

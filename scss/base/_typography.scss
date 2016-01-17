@@ -2,7 +2,7 @@ p {
   font-family: $font-paragraph;
   line-height: 1.7em;
   >a {
-    color: $color-accent;
+    color: darken($color-accent, 20%);
   }
 }
 
