@@ -8,6 +8,7 @@
 
   &__heading {
     font-size: 1.5em;
+    margin-bottom: 35px;
     @include section-heading();
   }
 
