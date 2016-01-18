@@ -22,29 +22,18 @@
     font-size: .9em;
 
     &:hover {
-      text-decoration: underline;
+      color: $color-white;
+      .social-network-list__icon {
+        fill: $color-white;
+      }
     }
   }
+
 
   &__icon {
     width: 26px;
     height: 26px;
     margin-right: 6px;
-    fill: #888a90 !important;
-    &--mail {
-      fill: white;
-    }
-    &--twitter {
-      fill: #00aced;
-    }
-    &--github {
-      fill: white;
-    }
-    &--youtube {
-      fill: #cd201f;
-    }
-    &--stack-overflow {
-      fill: #fe7a15;
-    }
+    fill: #888a90;
   }
 }
