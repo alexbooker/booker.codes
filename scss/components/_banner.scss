@@ -10,14 +10,9 @@
   color: $color-white;
 
   &__text {
-    font-size: 1em;
-    line-height: 1.35em;
     max-width: 700px;
-
-    @include breakpoint(356px) {
-      font-size: 1.2em;
-      line-height: 1.65em;
-    }
+    font-size: 1.2em;
+    line-height: 1.65em;
 
     @include breakpoint(520px) {
       font-size: 1.4em;
