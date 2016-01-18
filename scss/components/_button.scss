@@ -16,7 +16,7 @@
   &__icon {
     width: 24px;
     height: 24px;
-    fill: $color-white;
+    fill: darken($color-accent, 25%);
     margin-right: 6px;
   }
 }
