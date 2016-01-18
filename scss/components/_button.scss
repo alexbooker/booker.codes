@@ -5,10 +5,19 @@
   display: inline-block;
   text-decoration: none;
   font-family: 'Roboto Slab';
+  display: inline-flex;
+  align-items: center;
 
   &:hover {
     color: $color-black;
     background-color: darken($color-accent, 10%);
+  }
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    fill: $color-white;
+    margin-right: 6px;
   }
 }
 

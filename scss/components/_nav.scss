@@ -5,6 +5,7 @@
     margin-left: auto;
   }
 
+
   &__toggle-btn {
     align-items: center;
     background: 0;
@@ -51,6 +52,8 @@
       margin-top: 0;
       padding: 0;
       position: static;
+      display: flex;
+      align-items: center;
     }
 
     &--expanded {
@@ -78,6 +81,13 @@
       color: $color-black;
     }
 
+    &--contact {
+      background-color: inherit;
+      svg {
+        display: none;
+      }
+    }
+
     @include breakpoint(900px) {
       color: $color-black;
       padding: 10px;
@@ -89,6 +99,9 @@
 
       &--contact {
         @include button();
+        svg {
+          display: block;
+        }
       }
     }
   }

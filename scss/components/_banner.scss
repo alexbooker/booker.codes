@@ -33,6 +33,7 @@
   &__contact-btn {
     font-size: 1.0em;
     padding: 9px 18px;
+    margin-right: 6px;
     @include breakpoint(690px) {
       font-size: 1.1em;
     }
@@ -53,5 +54,10 @@
     border-bottom: 1px $color-white dotted;
     color: inherit;
     text-decoration: none;
+  }
+
+  &__buttons-container {
+    display: flex;
+    align-items: center;
   }
 }
