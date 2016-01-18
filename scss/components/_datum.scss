@@ -1,23 +1,6 @@
 .datum {
   &__heading {
     font-size: 1.3em;
-    text-transform: uppercase;
-
-    &:after {
-      content: ' ';
-      width: 50px;
-      display: block;
-      border-bottom:2px lighten($color-black, 85%) solid;
-      margin-top: 6px;
-    }
-
-    >span {
-      color: lighten($color-black, 55%);
-      display: block;
-      font-size: .7em;
-      font-style: italic;
-      margin-bottom: 2px;
-      text-transform: none;
-    }
+    @include section-heading();
   }
 }

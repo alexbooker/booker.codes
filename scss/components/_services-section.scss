@@ -1,8 +1,14 @@
 .services-section {
   background-color: darken($color-white, 3%);
 
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
   &__heading {
-    text-align: center;
+    font-size: 1.5em;
+    @include section-heading();
   }
 
   &__service {

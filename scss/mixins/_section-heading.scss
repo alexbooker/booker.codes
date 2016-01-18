@@ -1,0 +1,20 @@
+@mixin section-heading() {
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  &:after {
+    content: ' ';
+    width: 50px;
+    display: block;
+    border-bottom: 2px $color-accent solid;
+    margin-top: 6px;
+  }
+  >span {
+    color: lighten($color-black, 55%);
+    display: block;
+    font-size: 0.7em;
+    font-style: italic;
+    margin-bottom: 2px;
+    text-transform: none;
+  }
+}
