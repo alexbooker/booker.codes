@@ -1,4 +1,9 @@
 .datum {
+  padding: 25px 0 25px 10px;
+  @include breakpoint(600px) {
+    padding: 0;
+    padding-left: 10px;
+  }
   &__heading {
     font-size: 1.3em;
     @include section-heading();
